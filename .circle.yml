@@ -1,0 +1,9 @@
+deployment:
+  staging:
+    branch: staging
+    heroku:
+      appname: hawkbook-staging
+  staging:
+    branch: master
+    heroku:
+      appname: hawkbook
