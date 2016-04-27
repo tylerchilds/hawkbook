@@ -1,0 +1,13 @@
+machine:
+  environment:
+    CODECLIMATE_REPO_TOKEN: 5790386663da85c149b66ab84dfdc5e33458651ee5fc01fc5cf5e7b7a529ae45
+
+deployment:
+  staging:
+    branch: staging
+    heroku:
+      appname: hawkbook-staging
+  production:
+    branch: master
+    heroku:
+      appname: hawkbook
